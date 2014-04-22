@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
     @list1 = "Maple syrup"
     @list2 = "Chocolate chips"
     @list3 = "Strawberries"
-    @progess = 80
+    @progress = 80
     @percent = 80%
     @number = 8
       
@@ -25,7 +25,7 @@ class ApplicationController < ActionController::Base
     @list1 = "Cheddar Cheese"
     @list2 = "Broccoli"
     @list3 = "Toast"
-    @progess = 50
+    @progress = 50
     @percent = 50%
     @number = 5
     render 'show'
@@ -38,7 +38,7 @@ class ApplicationController < ActionController::Base
     @list1 = "Bacon"
     @list2 = "Bacon"
     @list3 = "Bacon"
-    @progess = 100
+    @progress = 100
     @percent = 100%
     @number = 10
     render 'show'

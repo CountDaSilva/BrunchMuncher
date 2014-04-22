@@ -1,0 +1,29 @@
+<h3><%= @food %></h3>
+  
+  <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img data-src="<%= @url %>" alt="...">
+    </a>
+  </div>
+</div>
+  
+  <h4>About:</h4>
+  
+ <p><%= @about %></p>
+  
+  <h4>Served with:</h4>
+  
+  <ul>
+    <li><%= @list1 %></li>
+    <li><%= @list2 %></li>
+    <li><%= @list3 %></li>
+  </ul>
+  
+  <h4>Scale of Deliciousness:</h4>
+  
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="<%= @progess %>" aria-valuemin="0" aria-valuemax="100" style="<%= @percent %>;">
+    <%= @number %>
+  </div>
+</div>
